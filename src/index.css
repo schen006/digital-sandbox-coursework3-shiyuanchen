@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.top {
+  height: 125px;
+  background-color: grey;
+}
+
+.box {
+  width: 980px;
+  margin: 0 auto;
+  height: 300px;
+  background-color: pink;
+}
+
+li {
+  /* list-style: none; */
+}
+
+ul > li::marker {
+  color: blue;
+  font-size: 3em;
+}
+
+.box li {
+  /* float是水平显示 */
+  float: left;
+  width: 237px;
+  height: 300px;
+  background-color: #D5D4D8;
+  margin-right: 10px;
+}
+
+.card {
+  width: 550px;
+  height: 868px;
+  background-color: #23252C;
+  margin: auto;
+}
+
+.card .tou {
+  width: 332px;
+  height: 317px;
+  margin-left: 112px;
+  margin-top: 50px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.card .zhong {
+  width: 332px;
+  height: 399px;
+  margin-left: 112px;
+  background-color: #1A1B21;
+}
+
+h2 {
+  margin: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 80px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+h4 {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0px;
+  text-align: center;
+  color: #F3BF99;
+}
+
+button {
+  width: 220px;
+  margin-top: 50px;
+  margin-left: 55px;
+  margin: center;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  background: #FFFFFF;
+  border: 1px solid #D1D5DB;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+}
+
+.card .wei {
+  width: 332px;
+  height: 64px;
+  margin-left: 112px;
+  background-color: #1A1B21;
+  border-radius: 0px 0px 10px 10px;
+}
+
+  /* box里面的last给它弄点样式，最后一个框不需要间隔了 */
+.box .last {
+  margin-right: 0px;
+}
+
+.banner {
+  height: 200px;
+  width: 980px;
+  background-color: #D5D4D8;
+  margin: 20px auto;
+}
+
+footer {
+  height: 400px;
+  width: 980px;
+  background-color: #D5D4D8;
+  margin: 20px auto;
+  background-position: right bottom;
+}
+
+.nav-items {
+  list-style: none;
+  display: flex;
+}
+
+.nav-logo {
+  width: 122px;
+}
+
+.nav-items > li {
+  padding: 20px;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  color: pink;
+  margin-left: 250px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
