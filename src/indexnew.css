@@ -17,21 +17,38 @@
 }
 
 .top {
-  position: absolute;
   width: 100%;
   height: 60px;
+  line-height: 10px;
   background-color:  #2BEB8F;
 }
+
+/* .nav-items > li {
+  padding: 15px;
+} */
+
   /*display: flex;
   flex-wrap: wrap;*/
 
-/* .content {
-  color: #2BEB8F;
+/* div:hover {
+    box-shadow: 2px 2px 2px -4px rgba(0, 0, 0, 0.25) inset;
 } */
+
+.content {
+  margin: auto;
+  width: 1920px;
+  height: 855px;
+  background-color: #0D0C0C;
+  box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.25) inset;
+}
+
+audio {
+
+}
 
 footer {
   position: absolute;
-  bottom: -150px;
+  bottom: -220px;
   height: 52px;
   width: 100%;
   background-color: #181616;
@@ -41,22 +58,88 @@ footer {
   color: white;
 }
 
+/*
+a:link {
+  color: blue  从来没有访问过的链接
+}
+a:visited {
+  color: gray;
+
+  LVHA的顺序写，否则不行
+} */
+
+/* 链接伪类选择器之一：鼠标正在按下，还没有弹起鼠标的那个链接 */
+
+.tdcolor10:hover,
+.tdcolor9:hover,
+.tdcolor8:hover,
+.tdcolor7:hover,
+.tdcolor6:hover,
+.tdcolor5:hover,
+.tdcolor4:hover,
+.tdcolor3:hover,
+.tdcolor2:hover,
+.tdcolor1:hover {
+  width: 62px;
+  height: 62px;
+  border: 5px solid #CEB6B6;
+  background: #0D0C0C;
+  background-image: url(choose.svg);
+  border-radius: 10px;  
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tdprefs1:hover,
+.tdprefs2:hover,
+.tdprefs3:hover,
+.tdprefs4:hover,
+.tdprefs5:hover,
+.tdprefs6:hover,
+.tdprefs7:hover,
+.tdprefs8:hover,
+.tdprefs9:hover,
+.tdprefs10:hover,
+.tdprefs11:hover,
+.tdprefs12:hover,
+.tdprefs13:hover,
+.tdprefs14:hover,
+.tdprefs15:hover {
+  color: black;
+  background-color: #2BEB8F;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: orange;
+}
+
+/* 从行内元素转换为行内块元素 display: inline-block*/
+a {
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
 h1 {
   color: #ffffff;
+  font-size: 28px;
 }
 
 h2 {
-  margin: center;
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 80px;
-  text-align: center;
   color: white;
 }
 
 h3 {
   color: #000000;
+  font-size: 21px;
 }
 
 h4 {
@@ -72,9 +155,8 @@ h6 {
 }
 
 p {
-  width: 505px;
-  height: 473px;
-
+  width: 800px;
+  height: auto;
   font-family: 'Inter';
   font-style: normal;
   font-weight: 400;
@@ -82,6 +164,16 @@ p {
   line-height: 28px;
 
   color: #FFFFFF;
+}
+
+.intro-para {
+  width: 505px;
+  height: 473px;
+  color: white;
+}
+
+em {
+  font-style: normal;
 }
 
 button {
@@ -95,6 +187,24 @@ button {
   mix-blend-mode: normal;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 30px;
+}
+
+.header {
+  text-decoration: none;
+  font-weight: bolder;
+  padding-right: 35px;
+}
+
+button:hover {
+  background: #0FC36D;
+}
+
+.makeprocess-link:hover {
+  background: #
+}
+
+.btn-back:hover {
+  background: #AFD2C2;
 }
 
 .btn-back {
@@ -120,10 +230,9 @@ button {
 .nav-items {
   list-style: none;
   position: absolute;
-  top:5px;
-  right: 130px;
+  top:25px;
+  right: 75px;
   display: flex;
-  color: white;
 }
 
 .nav-logo {
@@ -133,9 +242,9 @@ button {
   left: 400px;
 }
 
-.intro {
+.name {
   position: absolute;
-  top:10px;
+  top:22px;
   left:480px;
 }
 
@@ -145,31 +254,153 @@ button {
   left:540px;
 }
 
-table {
+.intro-page3 {
+  padding: 50px 80px;
   position: absolute;
-  top:180px;
-  left:-30px;
-  border-spacing: 40px;
-
+  top:200px;
+  left:540px;
 }
 
-td {
-  width: 140px;
+.makeprocess-link {
+  color: #2BEB8F;
+  font-weight: bolder;
+}
+
+.colorchoose {
+  width: 580px;
+  height: auto;
+
+  position: absolute;
+  top:140px;
+  left:25px;
+  margin: 0 auto;
+}
+
+.musicgenre {
+  width: 800px;
+  height: 180px;
+  position: absolute;
+  top:140px;
+  left:-170px;
+}
+
+tr {
+  margin-top: 10px;
+}
+
+.tdprefs1,
+.tdprefs2,
+.tdprefs3,
+.tdprefs4,
+.tdprefs5,
+.tdprefs6,
+.tdprefs7,
+.tdprefs8,
+.tdprefs9,
+.tdprefs10,
+.tdprefs11,
+.tdprefs12,
+.tdprefs13,
+.tdprefs14,
+.tdprefs15 {
+  width: 135px;
   height: 40px;
   color: #000;
   text-align: center;
-  background-color: #C8DCD2;
+  background-color: #A89BF1;
   border-radius: 30px;
+  line-height: 40px;
 }
 
-.intro2 {
+.tdcolor1 {
+  width: 60px;
+  height: 60px;
+  background: #FF0000;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.tdcolor2 {
+  width: 60px;
+  height: 60px;
+  background: #FFD90F;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.tdcolor3 {
+  width: 60px;
+  height: 60px;
+  background: #FF6B00;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.tdcolor4 {
+  width: 60px;
+  height: 60px;
+  background: #FD5ED0;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.tdcolor5 {
+  width: 60px;
+  height: 60px;
+  background: #CD3FFF;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.tdcolor6 {
+  width: 60px;
+  height: 60px;
+  background: #312F2F;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.tdcolor7 {
+  width: 60px;
+  height: 60px;
+  background: #C4C4C4;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.tdcolor8 {
+  width: 60px;
+  height: 60px;
+  background: #FFFFFF;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.tdcolor9 {
+  width: 60px;
+  height: 60px;
+  background: #0014C3;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.tdcolor10 {
+  width: 60px;
+  height: 60px;
+  background: #0DFFA8;
+  border-radius: 50%;
+  padding-left: 10px;
+}
+
+.intro-panel {
   position: absolute;
   top:120px;
   left:350px;
-  width: 850px;
+  width: 880px;
   height: flex;
-  background-color: #C4C4C4;
+  background-color: #181620;
   border-radius: 14px;
+  padding: 15px 42px;
 }
 
 .title {
@@ -191,7 +422,8 @@ td {
   position: absolute;
   top:50px;
   left: 40px;
-  transform: rotate(15.71deg);
+  animation: 4s move infinite ease-out 800ms;
+
 }
 
 .erji {
@@ -207,6 +439,7 @@ td {
   position: absolute;
   top:60px;
   right: 60px;
+  animation: 4s move infinite ease-out 800ms;
 }
 
 .shouyinji {
@@ -223,7 +456,7 @@ td {
   position: absolute;
   top:500px;
   right: 280px;
-  transform: rotate(14.24deg);
+  animation: 4s move infinite ease-out 800ms;
 }
 
 .yinfu {
@@ -266,8 +499,30 @@ td {
   left: 400px;
 }
 
-.nav-items > li {
-  padding: 15px;
+.love {
+  position: absolute;
+  bottom: 55px;
+  left: 170px;
+}
+
+.prefs-h3 {
+  width:400px;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  color: white;
+}
+
+.color-h3 {
+  width:400px;
+  position: absolute;
+  top: 50px;
+  left: 95px;
+  color: white;
+}
+
+.proposal {
+  width: 800px;
 }
 
 .nav {
@@ -288,7 +543,7 @@ body, html {
   display: flex;
   height: auto;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont,'Microsoft YaHei' 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont,'Microsoft YaHei', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

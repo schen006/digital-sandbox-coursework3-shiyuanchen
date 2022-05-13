@@ -1,21 +1,22 @@
 {
   "files": {
-    "main.css": "/~schen006/build/static/css/main.5dce34d0.css",
-    "main.js": "/~schen006/build/static/js/main.60a5846a.js",
-    "static/media/shouyinji.svg": "/~schen006/build/static/media/shouyinji.f91359b913175a05a0e559231b27cc50.svg",
-    "static/media/erji.svg": "/~schen006/build/static/media/erji.4ed4b680b5292072821a86a104300c7e.svg",
-    "static/media/laba.png": "/~schen006/build/static/media/laba.9a36fff3f0291a61403f.png",
-    "static/media/shouyinji.png": "/~schen006/build/static/media/shouyinji.f4bb0d9cd819c591adb2.png",
-    "static/media/erji.png": "/~schen006/build/static/media/erji.f657d3fbee44b6678020.png",
-    "static/media/people.png": "/~schen006/build/static/media/people.1c499928c896e69e2ea8.png",
-    "static/media/people.svg": "/~schen006/build/static/media/people.95cbc9a8694e6a5c0a8946d72765cbc2.svg",
-    "static/media/logomusic.svg": "/~schen006/build/static/media/logomusic.fff3b04082b927e442ed5a4f1ffe2c1b.svg",
-    "index.html": "/~schen006/build/index.html",
-    "main.5dce34d0.css.map": "/~schen006/build/static/css/main.5dce34d0.css.map",
-    "main.60a5846a.js.map": "/~schen006/build/static/js/main.60a5846a.js.map"
+    "main.css": "./static/css/main.b287ad31.css",
+    "main.js": "./static/js/main.e8351be5.js",
+    "static/media/proposal.png": "./static/media/proposal.4fa2d573edb83c88951b.png",
+    "static/media/shouyinji.svg": "./static/media/shouyinji.f91359b913175a05a0e559231b27cc50.svg",
+    "static/media/erji.svg": "./static/media/erji.4ed4b680b5292072821a86a104300c7e.svg",
+    "static/media/laba.png": "./static/media/laba.9a36fff3f0291a61403f.png",
+    "static/media/shouyinji.png": "./static/media/shouyinji.f4bb0d9cd819c591adb2.png",
+    "static/media/erji.png": "./static/media/erji.f657d3fbee44b6678020.png",
+    "static/media/people.png": "./static/media/people.1c499928c896e69e2ea8.png",
+    "static/media/choose.svg": "./static/media/choose.795fcd928d90d22510fb.svg",
+    "static/media/logomusic.svg": "./static/media/logomusic.fff3b04082b927e442ed5a4f1ffe2c1b.svg",
+    "index.html": "./index.html",
+    "main.b287ad31.css.map": "./static/css/main.b287ad31.css.map",
+    "main.e8351be5.js.map": "./static/js/main.e8351be5.js.map"
   },
   "entrypoints": [
-    "static/css/main.5dce34d0.css",
-    "static/js/main.60a5846a.js"
+    "static/css/main.b287ad31.css",
+    "static/js/main.e8351be5.js"
   ]
 }
