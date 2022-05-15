@@ -37,12 +37,9 @@
 .content {
   margin: auto;
   width: 1920px;
-  height: 855px;
+  height: flex;
   background-color: #0D0C0C;
   box-shadow: 10px 10px 10px -4px rgba(0, 0, 0, 0.25) inset;
-}
-
-audio {
 
 }
 
@@ -52,6 +49,14 @@ footer {
   height: 52px;
   width: 100%;
   background-color: #181616;
+}
+
+.footer2 {
+  position: absolute;
+  left: 0px;
+  height: 52px;
+  width: flex;
+  background-color: #0D0C0C;
 }
 
 .description {
@@ -85,7 +90,7 @@ a:visited {
   border: 5px solid #CEB6B6;
   background: #0D0C0C;
   background-image: url(choose.svg);
-  border-radius: 10px;  
+  border-radius: 10px;
   background-size: 20px;
   background-repeat: no-repeat;
   background-position: center;
@@ -145,9 +150,95 @@ h3 {
 h4 {
   font-style: normal;
   font-weight: 400;
-  line-height: 0px;
   text-align: center;
   color: #F3BF99;
+}
+
+h5 {
+  color: white;
+  line-height: 50px;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.h-button {
+  height: 600px;
+}
+
+.h-num {
+  margin-right: 20px;
+  margin-left: 41.5px;
+  width: flex;
+  height: 50px;
+  float:left;
+  display: inline-block;
+}
+
+.h-time {
+  float:left;
+  width: 0px;
+  margin-left: 120px;
+}
+
+.h-cover {
+  margin-right: 62px;
+  margin-left: 20px;
+  height: 40px;
+  float:left;
+  display: inline-block;
+  vertical-align:middle;
+  position: relative;
+}
+
+.h-button {
+  width: 10px;
+  height: 10px;
+  color: none;
+}
+
+.h-cover .h-pic {
+  position: absolute;
+  top: 13.5%;
+  width: 40px;
+  vertical-align: middle;
+}
+
+.h-instrument {
+  width: 35px;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 15px;
+}
+
+.h-xian {
+  float:left;
+  margin-left: 40px;
+  margin-right: 00px;
+}
+
+.h-name {
+  text-align: left;
+  float: left;
+  margin-left: 20px;
+  width: 180px;
+  height: 50px;
+  display: inline-block;
+  line-height: 50px;
+}
+
+.h-singer {
+  text-align: left;
+  float: left;
+  margin-left: 40px;
+  width: 200px;
+  height: 50px;
+  display: inline-block;
+}
+
+span {
+  color: white;
+  margin-right: 75px;
+  line-height: 50px;
 }
 
 h6 {
@@ -284,6 +375,8 @@ button:hover {
   left:-170px;
 }
 
+
+
 tr {
   margin-top: 10px;
 }
@@ -395,12 +488,54 @@ tr {
 .intro-panel {
   position: absolute;
   top:120px;
-  left:350px;
+  left:322px;
   width: 880px;
   height: flex;
   background-color: #181620;
   border-radius: 14px;
   padding: 15px 42px;
+
+
+  justify-content:center;
+  align-items:center;
+}
+
+.ul-list {
+  list-style-type: none;
+  margin-top: 65px;
+}
+
+.list:hover {
+  width: 980px;
+  background-color: #35333C;
+  border-radius: 6px;
+}
+
+.list {
+  width: 980px;
+  height: 50px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.list-panel {
+  position: absolute;
+  top:60px;
+  left:260px;
+  width: 1000px;
+  height: 800px;
+  padding: 60px 10px 0px 10px;
+  margin-top: 0px;
+  background-color: rgba(0, 0, 0, 0.4);
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  border-radius: 6px;
+}
+
+.list-panel02 {
+  height: flex;
 }
 
 .title {
@@ -423,7 +558,15 @@ tr {
   top:50px;
   left: 40px;
   animation: 4s move infinite ease-out 800ms;
+}
 
+.laba3 {
+  width: 300px;
+  position: absolute;
+  top:50px;
+  left: 0px;
+  opacity: 0.4;
+  animation: 4s move infinite ease-out 800ms;
 }
 
 .erji {
@@ -442,10 +585,19 @@ tr {
   animation: 4s move infinite ease-out 800ms;
 }
 
+.erji3 {
+  width: 100px;
+  position: absolute;
+  top:60px;
+  right: 60px;
+  opacity: 0.3;
+  animation: 4s move infinite ease-out 800ms;
+}
+
 .shouyinji {
   width: 240px;
   position: absolute;
-  top:500px;
+  top: 500px;
   right: 250px;
   transform: rotate(14.24deg);
   animation: 4s move infinite ease-out 800ms;
@@ -456,6 +608,15 @@ tr {
   position: absolute;
   top:500px;
   right: 280px;
+  animation: 4s move infinite ease-out 800ms;
+}
+
+.shouyinji3 {
+  width: 140px;
+  position: absolute;
+  top:560px;
+  right: 260px;
+  opacity: 0.1;
   animation: 4s move infinite ease-out 800ms;
 }
 
@@ -521,6 +682,20 @@ tr {
   color: white;
 }
 
+.list-h3 {
+  position: absolute;
+  top: 40px;
+  left: 50px;
+  width: 900px;
+  height: 40px;
+  color: #4A4A4A;
+  font-size: 16px;
+
+  text-align: center;
+  justify-content:center;
+  align-items:center;
+}
+
 .proposal {
   width: 800px;
 }
@@ -543,9 +718,6 @@ body, html {
   display: flex;
   height: auto;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont,'Microsoft YaHei', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: 'Microsoft YaHei', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }

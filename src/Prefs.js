@@ -8,8 +8,11 @@ import erji from './erji.svg';
 import shouyinji from './shouyinji.svg';
 
  export default function Prefs() {
+   /* I trying to use another method .map or props to create many music genre buttons in this page this process, but i failed, so i used the most basic ways */
+   /* I use table and tr td to made a form to shows this music information. */
   /* const musicname = ["Blues", "Rock&Roll", "Country", "Hip-Hop/Rap", "EDM", "Heavy Metal", "Show Tunes", "Reggae", "Classic", "Indie Rock", "Folk", "Pop", "Classic Rock", "Alternative", "R&B/Soul"] */
 
+  /* This is my initial exploring of how to use svg as my image. */
       return (
         <div className="content">
           <div className="introduce">
@@ -19,6 +22,7 @@ import shouyinji from './shouyinji.svg';
                       </svg>
                   </div>
              <h3 className="prefs-h3"> Select your favourite music genre</h3>
+
              <table className="musicgenre">
                <tr>
                  <Link to="/Color"><td className="tdprefs1">Blues</td></Link>

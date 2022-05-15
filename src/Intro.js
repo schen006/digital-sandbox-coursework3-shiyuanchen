@@ -17,12 +17,11 @@ import proposal from './proposal.png';
              <img src={proposal} className="proposal" alt=""/>
              <div style={{'height': ' 200px'}}><Link to="/"><Button style={{'position': 'absolute', 'left': '315px'}}><h3>Back</h3></Button></Link></div>
 
-              <div >
 
-              <footer style={{'background-color': ' #0D0C0C'}}>
+              <footer className="footer2">
                   <h6 className="description"><br />Design and Developed by Shiyuan Chen, User experience enginnering, Goldsmiths university of London <br /> Contact email: schen006@gold.ac.uk</h6>
-                </footer>
-              </div>
+              </footer>
+
           </div>
 
             <img src={laba} className="laba2" alt=""/>

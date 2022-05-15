@@ -20,7 +20,7 @@ import shouyinji from './shouyinji.svg';
             <img src={laba} className="laba" alt=""/>
             <img src={erji} className="erji" alt=""/>
             <img src={shouyinji} className="shouyinji" alt=""/>
-            <Link to="/"><Button><h3>Submit</h3></Button></Link>
+            <Link to="/List"><Button><h3>Submit</h3></Button></Link>
             <Link to="/Color"><Button className="btn-back"><h3>Back</h3></Button></Link>
           <div>
             <footer>
