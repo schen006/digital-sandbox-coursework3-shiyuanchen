@@ -29,7 +29,7 @@ export default function List(props) {
     /* This is the best page, because I have a sense of achievement, I finally managed to use props. */
     <div className="content">
       <div className="list-panel">
-        <div className="list-h3">This is an example music list for someone choose blue color and pop music. Two symbols on the right represent instruments used and emotional leanings of songs, which helps people exploring unfamiliar music better.</div>
+        <div className="list-h3"><h4>Example music list</h4><marquee>This is an example music list for someone choose blue color. Two symbols on the right represent instruments used and emotional leanings of songs, which helps people exploring unfamiliar music better.</marquee></div>
         <div >
                      <Content
                         cover={twinbed}
@@ -146,13 +146,13 @@ export default function List(props) {
       <div>
         <div className="list" >
             <div className="h-num"><h5>{props.num}</h5></div>
-            <div className="h-cover"><img src={props.cover} className="h-pic" alt=""/></div>
+            <div className="h-cover"><img src={props.cover} className="h-pic" title="cover"/></div>
             <div className="h-name"><h5>{props.name}</h5></div>
             <div className="h-xian"><h5> | </h5></div>
             <div className="h-singer"><h5>{props.singer}</h5></div>
-            <div className="h-instrument"><img src={props.instruments} className="h-pic" alt="This represent the instruments they use"/></div>
+            <div className="h-instrument"><img src={props.instruments} className="h-pic" title="This represent the instruments they use"/></div>
             <div className="h-time"><h5>{props.time}</h5></div>
-            <div className="h-instrument"><img src={props.emotion} className="h-pic" alt="This represent the emaotion it incline"/></div>
+            <div className="h-instrument"><img src={props.emotion} className="h-pic" title="This represent the emaotion it incline"/></div>
 
             </div>
         </div>

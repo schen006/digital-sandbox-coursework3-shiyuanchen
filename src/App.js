@@ -40,7 +40,9 @@ import yinfu from './yinfu.png';
         <div className="content">
           <div className="introduce">
              <h1> Hello!</h1><br />
-             <div className="intro-para">Andy, this link documents the design and build of my app, please click <Link to="/Intro" className="makeprocess-link">here</Link>.Viverra orci elementum morbi netus nulla viverra augue proin. Sed felis ligula a sociis sem. <br /> <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique et amet vitae est. Viverra orci elementum morbi netus nulla viverra augue proin. Sed felis ligula a sociis sem. <br /> <br /><br /><input type="checkbox" /> I agree to the National Gallery's terms and conditions and privacy policy.</div>
+             <div className="intro-para">Andy, this link documents the design and build of my app, please click <Link to="/Intro" className="makeprocess-link">here</Link>.Hi, everyone this is a web app for searching for someone favourite music by using colours, which will help people to discover more about unknown music. Even though many features are not yet available, they will be updated and upgraded in the future. Take a look at what's available now, I think you will like it. <br /> <br /><br /><input type="checkbox" /> I agree to provide some information on music and colour preferences.            
+
+             </div>
           </div>
 
             <img src={laba} className="laba" alt=""/>
@@ -73,9 +75,9 @@ import yinfu from './yinfu.png';
           <ul className="nav-items">
               <li><Link to="/" className="header">Home</Link></li>
               <li><em>|</em></li>
-              <li><Link to="/makingprocess" className="header">Making Process</Link></li>
+              <li><Link to="/intro" className="header">Proposal</Link></li>
               <li><em>|</em></li>
-              <li><Link to="/intro" className="header">Introduction</Link></li>
+              <li><Link to="/makingprocess" className="header">Making Process</Link></li>
           </ul>
           </Nav>
         </header>

@@ -14,7 +14,7 @@ import shouyinji from './shouyinji.svg';
              <h1> Thank you !</h1>
              <br />
              <br />
-             <div className="intro-para">Andy, this link documents the design and build of my app, please click .Viverra orci elementum morbi netus nulla viverra augue proin. Sed felis ligula a sociis sem. <br /> <br />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tristique et amet vitae est. Viverra orci elementum morbi netus nulla viverra augue proin. Sed felis ligula a sociis sem. <br /></div>
+             <div className="intro-para">Thank you for your participation. Your help is a great pleasure! for me, and your personal music list will be created soon, please wait a moment. Thank you for your patience. <br /></div>
 
           </div>
             <img src={laba} className="laba" alt=""/>

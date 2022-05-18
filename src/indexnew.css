@@ -166,8 +166,8 @@ h5 {
 }
 
 .h-num {
-  margin-right: 20px;
-  margin-left: 41.5px;
+  margin-right: 0px;
+  margin-left: 61.5px;
   width: flex;
   height: 50px;
   float:left;
@@ -177,7 +177,7 @@ h5 {
 .h-time {
   float:left;
   width: 0px;
-  margin-left: 120px;
+  margin-left: 165px;
 }
 
 .h-cover {
@@ -688,7 +688,7 @@ tr {
   left: 50px;
   width: 900px;
   height: 40px;
-  color: #4A4A4A;
+  color: grey;
   font-size: 16px;
 
   text-align: center;
